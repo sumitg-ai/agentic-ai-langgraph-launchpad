@@ -243,6 +243,11 @@ Agentic systems scale better when **reasoning and execution are decoupled**.
 
 ## 🔹 Part 4 — Adding a Critic Agent
 
+## Agenitc Flow Diagram with Critic Agent along with Planner & Executor
+<img width="625" height="729" alt="image" src="https://github.com/user-attachments/assets/a4ec616f-8677-4b46-812e-970aa9a43827" />
+
+
+
 ### 🎯 Goal
 
 Introduce **validation** into the agent loop.
