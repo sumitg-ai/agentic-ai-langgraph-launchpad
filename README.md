@@ -1,6 +1,6 @@
 # 🤖 Agentic AI Launchpad: Understanding Agentic AI with LangGraph 
 
-This tutorial is designed as an **Agentic AI Launchpad** — a structured and incremental way to understand **Agentic AI concepts using LangGraph**.
+This tutorial is designed as an **Agentic AI Launchpad** , a structured and incremental way to understand **Agentic AI concepts using LangGraph**.
 
 Instead of jumping directly into complex multi-agent systems, we start with the simplest possible setup and progressively build toward a more robust agentic architecture. Each step adds exactly one new concept so the learning remains intuitive and grounded.
 
