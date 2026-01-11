@@ -61,7 +61,7 @@ LangGraph helps us **structure these behaviors explicitly** instead of hiding th
 
 ---
 
-## 🔹 Part 1 — Single Agent with One Tool (Refer : agent_langgraph_part1.py)
+## 🔹 Part 1 — Single Agent with One Tool [Refer : agent_langgraph_part1.py]
 
 ### 🎯 Goal
 
@@ -127,7 +127,7 @@ There is **no hard-coded logic** telling the agent to call the tool — the deci
 
 ---
 
-## 🔹 Part 2 — Single Agent with Multiple Tools
+## 🔹 Part 2 — Single Agent with Multiple Tools [Refer : agent_langgraph_part2.py]
 
 ### 🎯 Goal
 
@@ -174,7 +174,7 @@ This is a fundamental property of agentic systems.
 
 ---
 
-## 🔹 Part 3 — Planner and Executor Agents
+## 🔹 Part 3 — Planner and Executor Agents [Refer : agent_langgraph_part3.py]
 
 ### 🎯 Goal
 
@@ -241,7 +241,7 @@ Agentic systems scale better when **reasoning and execution are decoupled**.
 
 ---
 
-## 🔹 Part 4 — Adding a Critic Agent
+## 🔹 Part 4 — Adding a Critic Agent  [Refer : agent_langgraph_part4.py]
 
 ## Agenitc Flow Diagram with Critic Agent along with Planner & Executor
 <img width="625" height="729" alt="image" src="https://github.com/user-attachments/assets/a4ec616f-8677-4b46-812e-970aa9a43827" />
@@ -338,7 +338,7 @@ Planning (thinking), execution (acting), and critique (verifying) are isolated c
 
 ---
 
-## 🔹 Part 5 — Final Robust Agent System
+## 🔹 Part 5 — Final Robust Agent System  [Refer : agent_langgraph_part5.py]
 
 ### 🎯 Goal
 
