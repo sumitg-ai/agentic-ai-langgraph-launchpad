@@ -237,7 +237,9 @@ This separation:
 
 ### ✅ Key Takeaway (Part 3)
 
-Agentic systems scale better when **reasoning and execution are decoupled**.
+Agentic systems scale better when **reasoning and execution are decoupled**. 
+Note in abobe screenshots carefully how the planner reasons and decides which tool to call and Executor just blindly calls the tool decided by the planner. The executor never tries to decide the tool thus clearly 
+defining its role. Good Agentic Design should have clear demarcation of roles and reasoning and execution should be decoupled like its shown here.
 
 ---
 
