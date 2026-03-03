@@ -235,11 +235,65 @@ This separation:
 
 ---
 
-### ✅ Key Takeaway (Part 3)
+### ✅ Key Takeaway (Part 3) - Why We Split Planner and Executor
 
 Agentic systems scale better when **reasoning and execution are decoupled**. 
-Note in abobe screenshots carefully how the planner reasons and decides which tool to call and Executor just blindly calls the tool decided by the planner. The executor never tries to decide the tool thus clearly 
-defining its role. Good Agentic Design should have clear demarcation of roles and reasoning and execution should be decoupled like its shown here.
+In this example, we separated the system into two roles:
+
+Planner → Thinks
+
+Executor → Acts
+
+Here’s what that means in simple terms:
+
+🧠 1. Planner = The Brain
+
+The Planner looks at the user’s request and decides:
+
+What needs to be done?
+
+Which tool should be used?
+
+What inputs should be passed to that tool?
+
+It reasons about the problem.
+
+Example:
+If the user asks to combine 6 and 7, the Planner decides:
+
+“I should use the add tool with inputs a=6 and b=7.”
+
+🔧 2. Executor = The Hands
+
+The Executor does not think.
+It simply:
+
+Takes the tool selected by the Planner
+
+Calls it with the provided arguments
+
+Returns the result
+
+It does not question or re-evaluate the decision.
+
+🎯 Why Is This Important?
+
+If one component both thinks and acts, the system becomes:
+
+Harder to debug
+
+Harder to scale
+
+Harder to control
+
+By separating reasoning from execution:
+
+✅ Each part has a clear responsibility
+✅ You can improve reasoning without touching execution
+✅ You can swap tools without changing planning logic
+✅ You can audit decisions more easily
+
+This is how real-world agent systems are built.
 
 ---
 
